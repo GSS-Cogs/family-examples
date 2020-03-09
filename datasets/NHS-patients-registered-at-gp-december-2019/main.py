@@ -35,7 +35,7 @@ tidy_data.to_csv("out/observations.csv", index=False)
 with open(destinationFolder / f'observations.csv-metadata.trig', 'wb') as metadata:
     metadata.write(scraper.generate_trig())
 
-csvw = CSVWMetadata('https://gss-cogs.github.io/family-example/reference/')
+csvw = CSVWMetadata('https://gss-cogs.github.io/family-examples/reference/')
 csvw.create(destinationFolder / 'observations.csv', destinationFolder / 'observations.csv-schema.json')
 # -
 
