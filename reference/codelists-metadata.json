@@ -7,11 +7,6 @@
     "rdfs:label": "Age"
     },
     {
-    "url": "codelists/measure-type.csv",
-    "tableSchema": "https://gss-cogs.github.io/ref_common/codelist-schema.json",
-    "rdfs:label": "Measure Type"
-    },
-    {
     "url": "codelists/org-code.csv",
     "tableSchema": "https://gss-cogs.github.io/ref_common/codelist-schema.json",
     "rdfs:label": "Org Code"
